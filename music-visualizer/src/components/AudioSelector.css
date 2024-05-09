@@ -1,0 +1,50 @@
+.centered-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.drop-area {
+  border: 2px dashed #aaa;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.drop-label {
+  cursor: pointer;
+}
+
+.file-input {
+  display: none;
+}
+
+.audio-info {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.audio-details {
+  margin-bottom: 20px;
+}
+
+.audio-controls {
+  margin-bottom: 20px;
+}
+
+.play-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.visualizer {
+  width: 200px;
+  height: 200px;
+  background-color: #000;
+}
